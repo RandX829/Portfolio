@@ -1,0 +1,7 @@
+# What is EditorConfig?
+# https://editorconfig.org/
+
+root = true
+
+[*.kt]
+indent_size = 2

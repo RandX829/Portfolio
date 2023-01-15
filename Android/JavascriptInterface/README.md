@@ -32,7 +32,7 @@ When the Web View(JavaScript) received "Hello" from the Native(Java) send "Hello
 
 ## License
 
-Copyright 2023 RandX <010and1001@gmail.com>
+Copyright 2022 RandX(<010and1001@gmail.com>)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

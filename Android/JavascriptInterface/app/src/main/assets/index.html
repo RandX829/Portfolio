@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    </head>
+
+    <body>
+    <textarea id="hello">START</textarea>
+
+    <style type="text/css">
+    body{
+        margin: 0%;
+    }
+    textarea{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        display: block;
+        background: skyblue;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var web = "Web View"
+        var msg = "Waiting for HELLO..."
+        hello.value = web + "\n" + "\n" + msg + "\n";
+
+        window.addEventListener("message", function(event) {
+        console.log(event.data.type);
+            if(event.data.type == "native_to_web") {
+                hello.value += getCurrentTime() + "\n" + event.data.payload + "\n";
+
+                setTimeout(() => {
+                window.postMessage({ type: "web_to_native", payload: "Hello from Web" }, "*");
+                }, 1000)
+            }
+        // For Debug
+        //     else 
+        //        hello.value += getCurrentTime() + "\n" + event.data.payload + "\n;
+        //     }
+        });
+
+        function getCurrentTime() {
+            var datetime = new Date();
+            var hour = String(datetime.getHours()).padStart(2, "0");
+            var minute = String(datetime.getMinutes()).padStart(2, "0");
+            var second = String(datetime.getSeconds()).padStart(2, "0");
+            datetimeString = hour + ":" + minute + ":" + second;
+
+            return datetimeString
+        }
+
+        // For Debug
+        setTimeout(() => {
+                window.postMessage({ type: "web_to_web", payload: "Hello from Web to Web" }, "*");
+            }, 1000)
+    </script>
+    </body>
+</html>

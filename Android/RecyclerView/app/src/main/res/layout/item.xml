@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/image_category_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/groceries"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="144dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"
+        android:text="2023-02-04 19:13:00"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/image_category_icon"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_memo"
+        android:layout_width="144dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="AEON"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toEndOf="@+id/image_category_icon"
+        app:layout_constraintTop_toBottomOf="@+id/text_date"/>
+
+    <ImageView
+        android:id="@+id/image_payment_method"
+        android:layout_width="36dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/cash"
+        app:layout_constraintStart_toEndOf="@+id/image_category_icon"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="￥99,999,999"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

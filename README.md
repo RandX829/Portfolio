@@ -7,7 +7,7 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | Android | iOS |
 | ----------- | ----------- |
 | [Android Studio](https://developer.android.com/studio) | [Xcode](https://developer.apple.com/xcode/resources/) |
-| [Java](https://en.wikipedia.org/wiki/Java) | [Swift](https://www.swift.org/about/) |
+| [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) | [Swift](https://www.swift.org/about/) |
 | [Gradle](https://gradle.org/) | [Xcode](https://developer.apple.com/xcode/resources/)  |
 | [XML](https://developer.android.com/develop/ui/views/layout/declaring-layout)  | [Storyboard](https://developer.apple.com/library/archive/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html) |
 
@@ -15,11 +15,11 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 | Android | iOS |
 | ----------- | ----------- |
-| [NFC](/Android/NFC/) | - |
-| [JavascriptInterface](/Android/JavascriptInterface/) | - |
-| - | [Bottom Sheet](/iOS/BottomSheet/) |
-| - | [UICollectionView](/iOS/UICollectionView/) |
-| - | [UITableView](/iOS/UITableView/) |
+| [NFC](/Android/NFC/) | COMING SOON... |
+| [JavascriptInterface](/Android/JavascriptInterface/) | COMING SOON... |
+| COMING SOON... | [Bottom Sheet](/iOS/BottomSheet/) |
+| COMING SOON... | [UICollectionView](/iOS/UICollectionView/) |
+| [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | [UITableView](/iOS/UITableView/) |
 
 ## Reference
 

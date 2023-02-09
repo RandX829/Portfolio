@@ -18,7 +18,7 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | [NFC](/Android/NFC/) | COMING SOON... |
 | [JavascriptInterface](/Android/JavascriptInterface/) | COMING SOON... |
 | COMING SOON... | [Bottom Sheet](/iOS/BottomSheet/) |
-| COMING SOON... | [UICollectionView](/iOS/UICollectionView/) |
+| [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)  | [UICollectionView](/iOS/UICollectionView/) |
 | [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | [UITableView](/iOS/UITableView/) |
 
 ## Reference

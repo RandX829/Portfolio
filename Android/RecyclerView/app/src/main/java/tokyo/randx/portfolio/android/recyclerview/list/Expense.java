@@ -1,6 +1,4 @@
-package tokyo.randx.portfolio.android.recyclerview;
-
-import android.widget.ImageView;
+package tokyo.randx.portfolio.android.recyclerview.list;
 
 import java.util.ArrayList;
 import java.util.List;

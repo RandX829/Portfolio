@@ -26,9 +26,9 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groceries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8O-iW-vif">
-                        <rect key="frame" x="-0.66666666666666785" y="64" width="65.333333333333329" height="24"/>
+                        <rect key="frame" x="0.0" y="64" width="64" height="24"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="65" id="5ir-wd-lT7"/>
+                            <constraint firstAttribute="width" constant="64" id="5ir-wd-lT7"/>
                             <constraint firstAttribute="height" constant="24" id="zHu-wi-dqV"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>

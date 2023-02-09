@@ -1,4 +1,4 @@
-package tokyo.randx.portfolio.android.recyclerview;
+package tokyo.randx.portfolio.android.recyclerview.list;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.text.NumberFormat;
 import java.util.List;
+
+import tokyo.randx.portfolio.android.recyclerview.R;
 
 public class ExpenseAdapter extends RecyclerView.Adapter<ExpenseAdapter.ViewHolder> {
     private List<Expense> expenses;
@@ -37,17 +39,17 @@ public class ExpenseAdapter extends RecyclerView.Adapter<ExpenseAdapter.ViewHold
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
-        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item, viewGroup, false);
+        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.expense, viewGroup, false);
         return new ViewHolder(v);
     }
 
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
         Expense expense = expenses.get(position);
-        viewHolder.categoryIcon.setImageResource(getImage(expense.category)); //todo
+        viewHolder.categoryIcon.setImageResource(getImage(expense.category));
         viewHolder.date.setText(expense.date);
         viewHolder.memo.setText(expense.memo);
-        viewHolder.paymentMethod.setImageResource(getImage(expense.paymentMethod));  //todo
+        viewHolder.paymentMethod.setImageResource(getImage(expense.paymentMethod));
         viewHolder.amount.setText("￥" + NumberFormat.getInstance().format(expense.amount));
     }
 

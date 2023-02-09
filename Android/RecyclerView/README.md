@@ -4,12 +4,15 @@ A flexible view for providing a limited window into a large data set.
 
 ## Screenshot
 
-![Recyclerview with LinearLayoutManager](./Screenshot/RecyclerviewL.png)
+| LinearLayoutManager | GridLayoutManager |
+| ----------- | ----------- |
+| ![Recyclerview with LinearLayoutManager](./Screenshot/RecyclerViewList.png) | ![Recyclerview with GridLayoutManager](./Screenshot/RecyclerViewGrid.png) |
 
 ## Tech Stack
 
 - [RecyclerView](https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView)
 - [LinearLayoutManager](https://developer.android.com/reference/androidx/recyclerview/widget/LinearLayoutManager)
+- [GridLayoutManager](https://developer.android.com/reference/androidx/recyclerview/widget/GridLayoutManager)
 
 ## Attribution
 **AS OF 2022/11**

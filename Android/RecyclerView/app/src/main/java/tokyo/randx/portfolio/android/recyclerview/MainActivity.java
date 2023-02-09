@@ -1,11 +1,13 @@
 package tokyo.randx.portfolio.android.recyclerview;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.DividerItemDecoration;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+
+import tokyo.randx.portfolio.android.recyclerview.grid.GridActivity;
+import tokyo.randx.portfolio.android.recyclerview.list.ListActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,12 +15,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        RecyclerView recyclerView = findViewById(R.id.recyclerview_expenses);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
-        recyclerView.addItemDecoration(dividerItemDecoration);
-        ExpenseAdapter expenseAdapter = new ExpenseAdapter(Expense.createDummy());
-        recyclerView.setAdapter(expenseAdapter);
+        init();
+    }
+
+    private void init() {
+        Button btnList = findViewById(R.id.button_list);
+        btnList.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), ListActivity.class);
+            startAct(intent);
+        });
+
+        Button btnGrid = findViewById(R.id.button_grid);
+        btnGrid.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), GridActivity.class);
+            startAct(intent);
+        });
+    }
+
+    public void startAct(Intent intent) {
+        startActivity(intent);
     }
 }

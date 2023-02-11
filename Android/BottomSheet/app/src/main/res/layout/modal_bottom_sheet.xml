@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/modal_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="48dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/darker_gray"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_amount"
+            android:layout_width="196dp"
+            android:layout_height="48dp"
+            android:textSize="28sp"
+            android:text="¥99,999,999"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="18sp"
+            android:text="日付"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:gravity="end"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_amount"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="18sp"
+            android:text="2023年01月04日(水) 19:30"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_amount"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_category_label"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="18sp"
+            android:text="区分"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_date_label"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_category"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="18sp"
+            android:text="食料品"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_date"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_payment_method_label"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="18sp"
+            android:text="支払い方法"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_category_label"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_payment_method"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="18sp"
+            android:text="カード"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_category"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_payer_label"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="18sp"
+            android:text="支払い人"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_payment_method_label"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_payer"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="18sp"
+            android:text="RandX"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_payment_method"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_memo_label"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="18sp"
+            android:text="メモ"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_payer_label"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/text_memo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AEON\n水、カレー"
+            android:editable="false"
+            android:background="#00000000"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/text_memo_label"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

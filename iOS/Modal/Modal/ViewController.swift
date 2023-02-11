@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 
     @available(iOS 15.0, *)
     @IBAction func btnShowTapped(_ sender: Any) {
-        let bottomSheetViewController = UIViewController(nibName: "BottomSheet", bundle: nil)
-        let navigationController = UINavigationController(rootViewController: bottomSheetViewController)
+        let modalViewController = UIViewController(nibName: "Modal", bundle: nil)
+        let navigationController = UINavigationController(rootViewController: modalViewController)
         navigationController.modalPresentationStyle = .pageSheet
         if let sheet = navigationController.sheetPresentationController {
             sheet.detents = [.medium(), .large()]

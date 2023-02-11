@@ -1,10 +1,10 @@
-# Bottom Sheet
+# Modal
 
-[Bottom sheets](https://m2.material.io/components/sheets-bottom) are surfaces containing supplementary content that are anchored to the bottom of the screen.
+Modality is a design technique that presents content in a separate, focused mode that prevents interaction with the parent view and requires an explicit action to dismiss.
 
 ## Screenshot
 
-![Bottom Sheet](./Screenshot/BottomSheet.png)
+![Modal](./Screenshot/Modal.png)
 
 ## Tech Stack
 

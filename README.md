@@ -15,11 +15,11 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 | Android | iOS |
 | ----------- | ----------- |
-| [NFC](/Android/NFC/) | COMING SOON... |
-| [JavascriptInterface](/Android/JavascriptInterface/) | COMING SOON... |
-| COMING SOON... | [Bottom Sheet](/iOS/BottomSheet/) |
-| [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)  | [UICollectionView](/iOS/UICollectionView/) |
-| [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | [UITableView](/iOS/UITableView/) |
+| [NFC](/Android/NFC/)                                              | COMING SOON... |
+| [JavascriptInterface](/Android/JavascriptInterface/)              | COMING SOON... |
+| [BottomSheet(Modal)](/Android/BottomSheet/)                       | [Modal](/iOS/Modal/) |
+| [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)         | [UICollectionView](/iOS/UICollectionView/) |
+| [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/)       | [UITableView](/iOS/UITableView/) |
 
 ## Reference
 

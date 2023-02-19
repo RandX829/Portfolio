@@ -6,20 +6,21 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 | Android | iOS |
 | ----------- | ----------- |
-| [Android Studio](https://developer.android.com/studio) | [Xcode](https://developer.apple.com/xcode/resources/) |
-| [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) | [Swift](https://www.swift.org/about/) |
-| [Gradle](https://gradle.org/) | [Xcode](https://developer.apple.com/xcode/resources/)  |
+| [Android Studio](https://developer.android.com/studio)                         | [Xcode](https://developer.apple.com/xcode/resources/) |
+| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))              | [Swift](https://www.swift.org/about/) |
+| [Gradle](https://gradle.org/)                                                  | [Xcode](https://developer.apple.com/xcode/resources/)  |
 | [XML](https://developer.android.com/develop/ui/views/layout/declaring-layout)  | [Storyboard](https://developer.apple.com/library/archive/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html) |
 
 ## Project
 
-| Android | iOS |
-| ----------- | ----------- |
-| [NFC](/Android/NFC/)                                              | NOT a FREE Feature |
-| [JavascriptInterface](/Android/JavascriptInterface/)              | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) |
-| [BottomSheet(Modal)](/Android/BottomSheet/)                       | [Modal](/iOS/Modal/) |
-| [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)         | [UICollectionView](/iOS/UICollectionView/) |
-| [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/)       | [UITableView](/iOS/UITableView/) |
+| Android | iOS | Remarks |
+| ----------- | ----------- | ----------- |
+| [NFC](/Android/NFC/)                                        | NOT a FREE Feature                                     | NFC, Reader, Emulator |
+| [JavascriptInterface](/Android/JavascriptInterface/)        | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native |
+| [CustomTab](/Android/CustomTab/)                            | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features |
+| [BottomSheet(Modal)](/Android/BottomSheet/)                 | [Modal](/iOS/Modal/)                                   | UI, Modality |
+| [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)   | [UICollectionView](/iOS/UICollectionView/)             | UI, Grid |
+| [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | [UITableView](/iOS/UITableView/)                       | UI, List |
 
 ## Reference
 

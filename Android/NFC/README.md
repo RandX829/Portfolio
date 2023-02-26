@@ -4,27 +4,28 @@ Near Field Communication (NFC) is a set of short-range wireless technologies, ty
 
 ## Screenshot
 
-![NfcA](./Screenshot/NfcA.png)
+| Card Reader(Physical) | Card Reader(HCE) |
+| ----------- | ----------- |
+| ![Reader](./Screenshot/Reader.png) | ![HCEReader](./Screenshot/HCEReader.png) |
 
 ## Feature
 
+- Check Availability(Supported, ON/OFF)
 - NFC Card Reader
   - Read and Display ID and supported TECHS of an NFC Card(Transportation Card, ID Card, etc).
 - Host-based Card Emulation(HCE)
-  - Coming SOON...
+  - Emulate an NFC card
+  - Read and Display AID and Payload
 
 ## Tech Stack
 
-- NfcAdapter
-- Tag
-- PendingIntent
-
-## Tool
-
-- Android Studio Dolphin | 2021.3.1 Patch 1
+- [NfcAdapter](https://developer.android.com/reference/android/nfc/NfcAdapter)
+- [Tag](https://developer.android.com/reference/android/nfc/Tag)
+- [PendingIntent](https://developer.android.com/reference/android/app/PendingIntent)
+- [HostApduService](https://developer.android.com/reference/android/nfc/cardemulation/HostApduService)
+- [ReaderCallback](https://developer.android.com/reference/android/nfc/NfcAdapter.ReaderCallback)
 
 ## Attribution
-
 **AS OF 2022/12**
 
 - [ic_launcher](https://www.flaticon.com/free-icon/nfc_5895155) created by wen_ardhie - Flaticon
@@ -33,10 +34,13 @@ Near Field Communication (NFC) is a set of short-range wireless technologies, ty
 
 - [Near field communication overview](https://developer.android.com/guide/topics/connectivity/nfc)
 - [Host-based card emulation overview](https://developer.android.com/guide/topics/connectivity/nfc/hce)
+- [Android CardReader Sample](https://github.com/googlearchive/android-CardReader)
+- [Android CardEmulation Sample](https://github.com/googlearchive/android-CardEmulation)
+- [Android HCE: are there rules for AID?](https://stackoverflow.com/questions/27533193/android-hce-are-there-rules-for-aid)
 
 ## License
 
-Copyright 2022 RandX(<010and1001@gmail.com>)
+Copyright 2022-2023 RandX(<010and1001@gmail.com>)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

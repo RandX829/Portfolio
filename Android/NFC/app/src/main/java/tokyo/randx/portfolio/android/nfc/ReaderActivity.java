@@ -2,36 +2,28 @@ package tokyo.randx.portfolio.android.nfc;
 
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.icu.text.DateFormat;
+import android.icu.text.SimpleDateFormat;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
+import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Date;
 import java.util.Objects;
 
 
-public class NfcActivity extends AppCompatActivity {
-    private static final String TAG = "NfcActivity";
+public class ReaderActivity extends AppCompatActivity {
     private NfcAdapter nfcAdapter;
     private PendingIntent pendingIntent;
 
-    /**
-     * Result ENUM
-     *
-     */
-    enum Result {
-        READY,
-        NOT_SUPPORTED,
-        NOT_ENABLED
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nfc);
+        setContentView(R.layout.activity_reader);
         init();
     }
 
@@ -59,12 +51,19 @@ public class NfcActivity extends AppCompatActivity {
             //    Display Technologies
             String[] techList = tag.getTechList();
             TextView tvTechnologies = findViewById(R.id.tv_tag_technologies);
-            tvTechnologies.setText(getResources().getString(R.string.nfc_tag_technologies_prefix, getTechnologies(techList)));
+            tvTechnologies.setText(getResources().getString(R.string.nfc_tag_technologies, getTechnologies(techList)));
 
             //    Display Tag ID
             byte[] tagIdBytes = tag.getId();
             TextView tvTagId = findViewById(R.id.tv_tag_id);
             tvTagId.setText(getResources().getString(R.string.nfc_tag_id_prefix, byte2HexString(tagIdBytes)));
+
+            TextView tvTime = findViewById(R.id.textview_timestamp);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                final DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                final Date date = new Date(System.currentTimeMillis());
+                tvTime.setText(getResources().getString(R.string.nfc_hce_timestamp, df.format(date)));
+            }
         }
     }
 
@@ -108,43 +107,12 @@ public class NfcActivity extends AppCompatActivity {
     }
 
     /**
-     * Check if NFC is ready
-     *
-     * @param nfcAdapter NFC Adapter
-     * @return Result READY or NOT_SUPPORTED or NOT_ENABLED
-     *
-     */
-    private Result isNfcAvailable(NfcAdapter nfcAdapter) {
-        if (nfcAdapter == null) {
-            Log.d(TAG, getResources().getString(R.string.nfc_not_supported));
-            return Result.NOT_SUPPORTED;
-        } else if (!nfcAdapter.isEnabled()) {
-            Log.d(TAG, getResources().getString(R.string.nfc_not_enabled));
-            return Result.NOT_ENABLED;
-        } else {
-            Log.d(TAG, getResources().getString(R.string.nfc_ready));
-            return Result.READY;
-        }
-    }
-
-    /**
      * initiate NFC
      *
      */
     private void init() {
         pendingIntent = PendingIntent.getActivity(getApplicationContext(), 0,
-                new Intent(getApplicationContext(), NfcActivity.class).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), 0);
+                new Intent(getApplicationContext(), ReaderActivity.class).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), 0);
         nfcAdapter = NfcAdapter.getDefaultAdapter(getApplicationContext());
-
-        switch (isNfcAvailable(nfcAdapter)) {
-            case NOT_SUPPORTED:
-                Toast.makeText(getApplicationContext(), getResources().getString(R.string.nfc_not_supported), Toast.LENGTH_SHORT).show();
-                break;
-            case NOT_ENABLED:
-                Toast.makeText(getApplicationContext(), getResources().getString(R.string.nfc_not_enabled), Toast.LENGTH_SHORT).show();
-                break;
-            default:
-                Toast.makeText(getApplicationContext(), getResources().getString(R.string.nfc_ready), Toast.LENGTH_SHORT).show();
-        }
     }
 }

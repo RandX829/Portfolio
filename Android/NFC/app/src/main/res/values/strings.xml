@@ -1,12 +1,22 @@
 <resources>
     <string name="app_name">NFC</string>
 
-    <!-- NFC -->
+    <!-- Common -->
     <string name="nfc_not_supported">NFC is NOT supported</string>
     <string name="nfc_not_enabled">NFC is NOT enabled</string>
     <string name="nfc_ready">NFC is READY</string>
+    <!-- Reader -->
     <string name="nfc_tag_id_prefix">ID: %s</string>
     <string name="nfc_tag_id_default">ID: 01:23:45:9A:AB:CD:EF</string>
-    <string name="nfc_tag_technologies_prefix">Technologies: %s</string>
+    <string name="nfc_tag_technologies">Technologies: %s</string>
     <string name="nfc_tag_technologies_default">Technologies: UNKNOWN</string>
+    <!-- HCE -->
+    <string name="nfc_hce_service_name">Portfolio NFC</string>
+    <string name="nfc_hce_card_title">HCE</string>
+    <string name="nfc_hce_aid">F202302231</string>
+    <string name="nfc_hce_aid_label">AID: %s</string>
+    <string name="nfc_hce_aid_default">AID: Waiting…</string>
+    <string name="nfc_hce_payload">Payload: %s</string>
+    <string name="nfc_hce_payload_default">Payload: Waiting…</string>
+    <string name="nfc_hce_timestamp">Timestamp: %s</string>
 </resources>

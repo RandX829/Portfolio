@@ -59,8 +59,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnDeleteLatest = findViewById(R.id.btn_delete_latest);
         btnDeleteLatest.setOnClickListener( v -> {
-            expenseViewModel.delete(currentItems.get(currentItems.size() - 1));
-
+            if (currentItems != null && !currentItems.isEmpty()) {
+                expenseViewModel.delete(currentItems.get(currentItems.size() - 1));
+            }
         });
     }
 }

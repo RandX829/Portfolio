@@ -18,6 +18,7 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | [NFC](/Android/NFC/)                                        | NOT a FREE Feature                                     | NFC, Reader, Emulator |
 | [JavascriptInterface](/Android/JavascriptInterface/)        | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native |
 | [CustomTab](/Android/CustomTab/)                            | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features |
+| [SnackBar](/Android/SnackBar/)                              | NO Equivalent                                          | UI, Widget |
 | [BottomSheet(Modal)](/Android/BottomSheet/)                 | [Modal](/iOS/Modal/)                                   | UI, Modality |
 | [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)   | [UICollectionView](/iOS/UICollectionView/)             | UI, Grid |
 | [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | [UITableView](/iOS/UITableView/)                       | UI, List |

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SnackBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="snackbarStyle">@style/Widget.Material3.Snackbar.FullWidth</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.SnackBar" parent="Base.Theme.SnackBar" />
+</resources>

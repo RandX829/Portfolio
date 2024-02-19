@@ -4,12 +4,12 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## Tech Stack
 
-| Android | iOS |
-| ----------- | ----------- |
-| [Android Studio](https://developer.android.com/studio)                         | [Xcode](https://developer.apple.com/xcode/resources/) |
-| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))              | [Swift](https://www.swift.org/about/) |
-| [Gradle](https://gradle.org/)                                                  | [Xcode](https://developer.apple.com/xcode/resources/)  |
-| [View](https://developer.android.com/develop/ui/views/layout/declaring-layout) | [UIKit](https://developer.apple.com/documentation/uikit/) |
+| Android | iOS | Note |
+| ----------- | ----------- | ----------- |
+| [Android Studio](https://developer.android.com/studio)                         | [Xcode](https://developer.apple.com/xcode/resources/)     | IDE |
+| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))              | [Swift](https://www.swift.org/about/)                     | Programming Language |
+| [Gradle](https://gradle.org/)                                                  | [Xcode](https://developer.apple.com/xcode/resources/)     | Build Tool |
+| [XML](https://developer.android.com/develop/ui/views/layout/declaring-layout)  | [UIKit](https://developer.apple.com/documentation/uikit/) | UI |
 
 ## Project
 
@@ -18,8 +18,8 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | [NFC](/Android/NFC/)                                        | NOT a FREE Feature                                     | NFC, Reader, Emulator |
 | [JavascriptInterface](/Android/JavascriptInterface/)        | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native |
 | [CustomTab](/Android/CustomTab/)                            | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features |
-| [SnackBar](/Android/SnackBar/)                              | COMING SOON...                                         | UI, Widget |
-| [ViewPager2](/Android/ViewPager2/)                          | COMING SOON...                                         | UI, Widget |
+| [SnackBar](/Android/SnackBar/)                              | NOT SUPPORTED NATIVELY                                 | UI, Widget |
+| [ViewPager2](/Android/ViewPager2/)                          | COMING SOON...                                         | UI, Pager |
 | [BottomSheet(Modal)](/Android/BottomSheet/)                 | [Modal](/iOS/Modal/)                                   | UI, Modality |
 | [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)   | [UICollectionView](/iOS/UICollectionView/)             | UI, Grid |
 | [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | [UITableView](/iOS/UITableView/)                       | UI, List |
@@ -31,7 +31,7 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## License
 
-Copyright 2022-2023 RandX(<010and1001@gmail.com>)
+Copyright 2022-2024 RandX(<010and1001@gmail.com>)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

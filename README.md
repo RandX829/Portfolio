@@ -7,14 +7,17 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | Android | iOS | Note |
 | ----------- | ----------- | ----------- |
 | [Android Studio](https://developer.android.com/studio)                         | [Xcode](https://developer.apple.com/xcode/resources/)     | IDE |
-| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))              | [Swift](https://www.swift.org/about/)                     | Programming Language |
+| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))              | COMING SOON...                                            | Programming Language |
+| [Kotlin](https://kotlinlang.org/docs/getting-started.html)                     | [Swift](https://www.swift.org/about/)                     | Programming Language |
 | [Gradle](https://gradle.org/)                                                  | [Xcode](https://developer.apple.com/xcode/resources/)     | Build Tool |
 | [XML](https://developer.android.com/develop/ui/views/layout/declaring-layout)  | [UIKit](https://developer.apple.com/documentation/uikit/) | UI |
+| [Jetpack Compose](https://developer.android.com/jetpack/compose)               | [SwiftUI](https://developer.apple.com/xcode/swiftui/)     | UI |
 
 ## Project
 
-| Android | iOS | Remarks |
+| Android | iOS | Note |
 | ----------- | ----------- | ----------- |
+| COMING SOON...                                              | [Tutorials](/iOS/Tutorials/)                           | Public Tutorials |
 | [NFC](/Android/NFC/)                                        | NOT a FREE Feature                                     | NFC, Reader, Emulator |
 | [JavascriptInterface](/Android/JavascriptInterface/)        | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native |
 | [CustomTab](/Android/CustomTab/)                            | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features |
@@ -24,8 +27,9 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)   | [UICollectionView](/iOS/UICollectionView/)             | UI, Grid |
 | [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | [UITableView](/iOS/UITableView/)                       | UI, List |
 | [Room](/Android/Room/)                                      | [SQLite.swift](/iOS/SQLiteSwift/)                      | DB, DAO |
+| COMING SOON...                                              | [NavigationStack](/iOS/NavigationStack/)               | Navigation |
 
-## Reference
+## Attribution
 
 - [Collection of .gitignore](https://github.com/github/gitignore)
 

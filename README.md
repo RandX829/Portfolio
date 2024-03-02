@@ -4,30 +4,36 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## Tech Stack
 
-| Android | iOS | Note |
-| ----------- | ----------- | ----------- |
-| [Android Studio](https://developer.android.com/studio)                         | [Xcode](https://developer.apple.com/xcode/resources/)     | IDE |
-| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))              | COMING SOON...                                            | Programming Language |
-| [Kotlin](https://kotlinlang.org/docs/getting-started.html)                     | [Swift](https://www.swift.org/about/)                     | Programming Language |
-| [Gradle](https://gradle.org/)                                                  | [Xcode](https://developer.apple.com/xcode/resources/)     | Build Tool |
-| [XML](https://developer.android.com/develop/ui/views/layout/declaring-layout)  | [UIKit](https://developer.apple.com/documentation/uikit/) | UI |
-| [Jetpack Compose](https://developer.android.com/jetpack/compose)               | [SwiftUI](https://developer.apple.com/xcode/swiftui/)     | UI |
+| Android                                                                         | iOS                                                       | Note                 |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------|----------------------|
+| [Android Studio](https://developer.android.com/studio)                          | [Xcode](https://developer.apple.com/xcode/resources/)     | IDE                  |
+| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))               | -                                            | Programming Language |
+| [Kotlin](https://kotlinlang.org/docs/getting-started.html)                      | [Swift](https://www.swift.org/about/)                     | Programming Language |
+| [Gradle](https://gradle.org/)                                                   | [Xcode](https://developer.apple.com/xcode/resources/)     | Build Tool           |
+| [Views](https://developer.android.com/develop/ui/views/layout/declaring-layout) | [UIKit](https://developer.apple.com/documentation/uikit/) | UI                   |
+| [Compose](https://developer.android.com/jetpack/compose)                        | [SwiftUI](https://developer.apple.com/xcode/swiftui/)     | UI                   |
 
-## Project
+## UI
 
-| Android | iOS | Note |
-| ----------- | ----------- | ----------- |
-| COMING SOON...                                              | [Tutorials](/iOS/Tutorials/)                           | Public Tutorials |
-| [NFC](/Android/NFC/)                                        | NOT a FREE Feature                                     | NFC, Reader, Emulator |
-| [JavascriptInterface](/Android/JavascriptInterface/)        | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native |
-| [CustomTab](/Android/CustomTab/)                            | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features |
-| [SnackBar](/Android/SnackBar/)                              | NOT SUPPORTED NATIVELY                                 | UI, Widget |
-| [ViewPager2](/Android/ViewPager2/)                          | COMING SOON...                                         | UI, Pager |
-| [BottomSheet(Modal)](/Android/BottomSheet/)                 | [Modal](/iOS/Modal/)                                   | UI, Modality |
-| [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)   | [UICollectionView](/iOS/UICollectionView/)             | UI, Grid |
-| [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | [UITableView](/iOS/UITableView/)                       | UI, List |
-| [Room](/Android/Room/)                                      | [SQLite.swift](/iOS/SQLiteSwift/)                      | DB, DAO |
-| COMING SOON...                                              | [NavigationStack](/iOS/NavigationStack/)               | Navigation |
+| View-based                                                  | Compose                                             | UIKit                                      | SwiftUI                                  |
+|-------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------|------------------------------------------|
+| [SnackBar](/Android/SnackBar/)                              | COMING SOON...                                      | NOT SUPPORTED NATIVELY                     | NOT SUPPORTED NATIVELY                   |
+| [ViewPager2](/Android/ViewPager2/)                          | COMING SOON...                                      | COMING SOON...                             | COMING SOON...                           |
+| [BottomSheet(Modal)](/Android/BottomSheet/)                 | COMING SOON...                                      | [Modal](/iOS/Modal/)                       | COMING SOON...                           |
+| [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)   | COMING SOON...                                      | [UICollectionView](/iOS/UICollectionView/) | COMING SOON...                           |
+| [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | COMING SOON...                                      | [UITableView](/iOS/UITableView/)           | COMING SOON...                           |
+| COMING SOON...                                              | [Navigation(Compose)](/Android/Navigation4Compose/) | COMING SOON...                             | [NavigationStack](/iOS/NavigationStack/) |
+
+## Other
+
+| Android                                              | iOS                                                    | Note                             |
+|------------------------------------------------------|--------------------------------------------------------|----------------------------------|
+| COMING SOON...                                       | [Tutorials](/iOS/Tutorials/)                           | Public Tutorials                 |
+| [NFC](/Android/NFC/)                                 | NOT a FREE Feature                                     | NFC, Reader, Emulator            |
+| [JavascriptInterface](/Android/JavascriptInterface/) | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native              |
+| [CustomTab](/Android/CustomTab/)                     | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features |
+| COMING SOON...                                       | [SQLite.swift](/iOS/SQLiteSwift/)                      | DB                               |
+| [Room](/Android/Room/)                               | COMING SOON...                                         | DB                               |
 
 ## Attribution
 

@@ -33,7 +33,7 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | [JavascriptInterface](/Android/JavascriptInterface/) | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native              |
 | [CustomTab](/Android/CustomTab/)                     | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features |
 | COMING SOON...                                       | [SQLite.swift](/iOS/SQLiteSwift/)                      | DB                               |
-| [Room](/Android/Room/)                               | COMING SOON...                                         | DB                               |
+| [Room](/Android/Room/)                               | [SwiftData](/iOS/SwiftD0ta/)                           | DB                               |
 
 ## Attribution
 

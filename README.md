@@ -34,6 +34,7 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | [CustomTab](/Android/CustomTab/)                     | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features |
 | COMING SOON...                                       | [SQLite.swift](/iOS/SQLiteSwift/)                      | DB                               |
 | [Room](/Android/Room/)                               | [SwiftData](/iOS/SwiftD0ta/)                           | DB                               |
+| [Deeplink](/Android/Deeplink/)                       | COMING SOON...                                         | Deep Links, Android App Links, Universal Links |
 
 ## Attribution
 

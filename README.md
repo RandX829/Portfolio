@@ -7,7 +7,7 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | Android                                                                         | iOS                                                       | Note                 |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------|----------------------|
 | [Android Studio](https://developer.android.com/studio)                          | [Xcode](https://developer.apple.com/xcode/resources/)     | IDE                  |
-| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))               | -                                            | Programming Language |
+| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))               | -                                                         | Programming Language |
 | [Kotlin](https://kotlinlang.org/docs/getting-started.html)                      | [Swift](https://www.swift.org/about/)                     | Programming Language |
 | [Gradle](https://gradle.org/)                                                   | [Xcode](https://developer.apple.com/xcode/resources/)     | Build Tool           |
 | [Views](https://developer.android.com/develop/ui/views/layout/declaring-layout) | [UIKit](https://developer.apple.com/documentation/uikit/) | UI                   |
@@ -26,14 +26,14 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## Other
 
-| Android                                              | iOS                                                    | Note                             |
-|------------------------------------------------------|--------------------------------------------------------|----------------------------------|
-| COMING SOON...                                       | [Tutorials](/iOS/Tutorials/)                           | Public Tutorials                 |
-| [NFC](/Android/NFC/)                                 | NOT a FREE Feature                                     | NFC, Reader, Emulator            |
-| [JavascriptInterface](/Android/JavascriptInterface/) | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native              |
-| [CustomTab](/Android/CustomTab/)                     | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features |
-| COMING SOON...                                       | [SQLite.swift](/iOS/SQLiteSwift/)                      | DB                               |
-| [Room](/Android/Room/)                               | [SwiftData](/iOS/SwiftD0ta/)                           | DB                               |
+| Android                                              | iOS                                                    | Note                                           |
+|------------------------------------------------------|--------------------------------------------------------|------------------------------------------------|
+| [Tutorials](/Android/Tutorials/)                     | [Tutorials](/iOS/Tutorials/)                           | Public Tutorials                               |
+| [NFC](/Android/NFC/)                                 | NOT a FREE Feature                                     | NFC, Reader, Emulator                          |
+| [JavascriptInterface](/Android/JavascriptInterface/) | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native                            |
+| [CustomTab](/Android/CustomTab/)                     | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features               |
+| COMING SOON...                                       | [SQLite.swift](/iOS/SQLiteSwift/)                      | DB                                             |
+| [Room](/Android/Room/)                               | [SwiftData](/iOS/SwiftD0ta/)                           | DB                                             |
 | [Deeplink](/Android/Deeplink/)                       | COMING SOON...                                         | Deep Links, Android App Links, Universal Links |
 
 ## Attribution

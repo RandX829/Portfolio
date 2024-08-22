@@ -15,26 +15,37 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## UI
 
-| View-based                                                  | Compose                                             | UIKit                                      | SwiftUI                                  |
-|-------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------|------------------------------------------|
-| [SnackBar](/Android/SnackBar/)                              | COMING SOON...                                      | NOT SUPPORTED NATIVELY                     | NOT SUPPORTED NATIVELY                   |
-| [ViewPager2](/Android/ViewPager2/)                          | COMING SOON...                                      | COMING SOON...                             | COMING SOON...                           |
-| [BottomSheet(Modal)](/Android/BottomSheet/)                 | COMING SOON...                                      | [Modal](/iOS/Modal/)                       | COMING SOON...                           |
-| [Recyclerview(GridLayoutManager)](/Android/RecyclerView/)   | COMING SOON...                                      | [UICollectionView](/iOS/UICollectionView/) | COMING SOON...                           |
-| [Recyclerview(LinearLayoutManager)](/Android/RecyclerView/) | COMING SOON...                                      | [UITableView](/iOS/UITableView/)           | COMING SOON...                           |
-| COMING SOON...                                              | [Navigation(Compose)](/Android/Navigation4Compose/) | COMING SOON...                             | [NavigationStack](/iOS/NavigationStack/) |
+| View-based                                                 | Compose                                            | UIKit                                     | SwiftUI                                 |
+|------------------------------------------------------------|----------------------------------------------------|-------------------------------------------|-----------------------------------------|
+| [SnackBar](/Android/SnackBar)                              | COMING SOON...                                     | NOT SUPPORTED NATIVELY                    | NOT SUPPORTED NATIVELY                  |
+| [ViewPager2](/Android/ViewPager2)                          | COMING SOON...                                     | COMING SOON...                            | COMING SOON...                          |
+| [BottomSheet(Modal)](/Android/BottomSheet)                 | COMING SOON...                                     | [Modal](/iOS/Modal)                       | COMING SOON...                          |
+| [Recyclerview(GridLayoutManager)](/Android/RecyclerView)   | COMING SOON...                                     | [UICollectionView](/iOS/UICollectionView) | COMING SOON...                          |
+| [Recyclerview(LinearLayoutManager)](/Android/RecyclerView) | COMING SOON...                                     | [UITableView](/iOS/UITableView)           | COMING SOON...                          |
+| COMING SOON...                                             | [Navigation(Compose)](/Android/Navigation4Compose) | COMING SOON...                            | [NavigationStack](/iOS/NavigationStack) |
 
-## Other
+## Platform Specific Feature
 
-| Android                                              | iOS                                                    | Note                                           |
-|------------------------------------------------------|--------------------------------------------------------|------------------------------------------------|
-| [Tutorials](/Android/Tutorials/)                     | [Tutorials](/iOS/Tutorials/)                           | Public Tutorials                               |
-| [NFC](/Android/NFC/)                                 | NOT a FREE Feature                                     | NFC, Reader, Emulator                          |
-| [JavascriptInterface](/Android/JavascriptInterface/) | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler/) | WebView, Web⇄Native                            |
-| [CustomTab](/Android/CustomTab/)                     | [SFSafariViewController](/iOS/SFSafariViewController/) | WebView, Native Browser Features               |
-| COMING SOON...                                       | [SQLite.swift](/iOS/SQLiteSwift/)                      | DB                                             |
-| [Room](/Android/Room/)                               | [SwiftData](/iOS/SwiftD0ta/)                           | DB                                             |
-| [Deeplink](/Android/Deeplink/)                       | COMING SOON...                                         | Deep Links, Android App Links, Universal Links |
+| Android                                             | iOS                                                   | Note                                           |
+|-----------------------------------------------------|-------------------------------------------------------|------------------------------------------------|
+| [NFC](/Android/NFC)                                 | NOT a FREE Feature                                    | NFC, Reader, Emulator                          |
+| [JavascriptInterface](/Android/JavascriptInterface) | [WKScriptMessageHandler](/iOS/WKScriptMessageHandler) | WebView, Web⇄Native                            |
+| [CustomTab](/Android/CustomTab)                     | [SFSafariViewController](/iOS/SFSafariViewController) | WebView, Native Browser Features               |
+| COMING SOON...                                      | [SQLite.swift](/iOS/SQLiteSwift)                      | DB                                             |
+| [Room](/Android/Room)                               | [SwiftData](/iOS/SwiftD0ta)                           | DB                                             |
+| [Deeplink](/Android/Deeplink)                       | COMING SOON...                                        | Deep Links, Android App Links, Universal Links |
+
+## Kotlin Multiplatform
+
+COMING SOON...
+
+## Public Tutorial
+
+| Tutorial                                                                      | Note                         |
+|-------------------------------------------------------------------------------|------------------------------|
+| [App Dev Tutorial SwiftUI](/Public-Tutorials/AppDevTutorialSwiftUI)           | Apple Official Document      |
+| [CS193p - Developing Apps for iOS 2023](/Public-Tutorials/StanfordCS193p2023) | Stanford University's course |
+| [Create a Compose Multiplatform app](/Public-Tutorials/KotlinMultiplatform)   | JetBrains Official Document  |
 
 ## Attribution
 

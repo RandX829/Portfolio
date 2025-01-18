@@ -37,9 +37,10 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## Kotlin Multiplatform
 
-COMING SOON...
+- [Hands On](/Kotlin-Multiplatform/Hands-On/)
+- [Ktor](/Kotlin-Multiplatform/Ktor/)
 
-## Public Tutorial
+## Public Tutorials
 
 | Tutorial                                                                      | Note                         |
 |-------------------------------------------------------------------------------|------------------------------|
@@ -53,7 +54,7 @@ COMING SOON...
 
 ## License
 
-Copyright 2022-2024 RandX(<010and1001@gmail.com>)
+Copyright 2022-2025 RandX(<010and1001@gmail.com>)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

@@ -25,13 +25,15 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 ### Cross Platform
 
 - [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) - a technology that allows you to create applications for various platforms and efficiently reuse code across them
-- [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) - a declarative UI framework by JetBrains, allows you to develop shared UIs for Android, iOS, desktop, and web
+- [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) - a declarative framework for sharing UIs across multiple platforms with Kotlin
+- [Ktor](https://github.com/ktorio/ktor) - a framework for building asynchronous server-side and client-side applications with ease
+- [Koin](https://github.com/InsertKoinIO/koin) - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform
 
 ### Cloud Services
 
-- [Cloudflare Workers](https://www.cloudflare.com/developer-platform/products/workers/)
-- [Cloudflare D1](https://www.cloudflare.com/developer-platform/products/d1/)
-- [Firebase](https://firebase.google.com/)
+- [Cloudflare](https://developers.cloudflare.com/products/)
+- [Firebase Build](https://firebase.google.com/products-build)
+- [Firebase Run](https://firebase.google.com/products-run)
 
 ## UI
 
@@ -58,8 +60,14 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 ## Kotlin Multiplatform
 
 - [Hands On](/Kotlin-Multiplatform/Hands-On/) - Kotlin Multiplatform hands-on
-- [Ktor](/Kotlin-Multiplatform/Ktor/) - a framework for building asynchronous server-side and client-side applications with ease.
-- [Koin](/Kotlin-Multiplatform/Koin/) - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform.
+- [Ktor](/Kotlin-Multiplatform/Ktor/) - a framework for building asynchronous server-side and client-side applications with ease
+- [Koin](/Kotlin-Multiplatform/Koin/) - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform
+
+## Cloudflare
+
+- [Workers+D1]() - COMING SOON
+- [Workers+Prisma]() - COMING SOON
+- [Workers+Hone](/Cloudflare/Workers-Hono/) - Hono is a small, simple, and ultrafast web framework
 
 ## Public Tutorials
 

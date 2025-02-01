@@ -4,14 +4,34 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## Tech Stack
 
-| Android                                                                         | iOS                                                       | Note                 |
-|---------------------------------------------------------------------------------|-----------------------------------------------------------|----------------------|
-| [Android Studio](https://developer.android.com/studio)                          | [Xcode](https://developer.apple.com/xcode/resources/)     | IDE                  |
-| [Java](https://en.wikipedia.org/wiki/Java_(programming_language))               | -                                                         | Programming Language |
-| [Kotlin](https://kotlinlang.org/docs/getting-started.html)                      | [Swift](https://www.swift.org/about/)                     | Programming Language |
-| [Gradle](https://gradle.org/)                                                   | [Xcode](https://developer.apple.com/xcode/resources/)     | Build Tool           |
-| [Views](https://developer.android.com/develop/ui/views/layout/declaring-layout) | [UIKit](https://developer.apple.com/documentation/uikit/) | UI                   |
-| [Compose](https://developer.android.com/jetpack/compose)                        | [SwiftUI](https://developer.apple.com/xcode/swiftui/)     | UI                   |
+### Android
+
+- [Android Studio](https://developer.android.com/studio) - IDE
+- [Kotlin](https://kotlinlang.org/docs/getting-started.html) - Programming Language
+- [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) - Programming Language
+- [Gradle](https://gradle.org/) - Build & Dependancy Management Tool
+- [Compose](https://developer.android.com/jetpack/compose) - UI
+- [Views](https://developer.android.com/develop/ui/views/layout/declaring-layout) - UI
+
+### iOS
+
+- [Xcode](https://developer.apple.com/xcode/resources/) - IDE
+- [Swift](https://www.swift.org/about/) - Programming Language
+- [Objective-C](https://en.wikipedia.org/wiki/Objective-C) - Programming Language
+- [Swift Package Manager](https://github.com/swiftlang/swift-package-manager) - Dependancy Management Tool
+- [SwiftUI](https://developer.apple.com/xcode/swiftui/) - UI
+- [UIKit](https://developer.apple.com/documentation/uikit/) - UI
+
+### Cross Platform
+
+- [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) - a technology that allows you to create applications for various platforms and efficiently reuse code across them
+- [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) - a declarative UI framework by JetBrains, allows you to develop shared UIs for Android, iOS, desktop, and web
+
+### Cloud Services
+
+- [Cloudflare Workers](https://www.cloudflare.com/developer-platform/products/workers/)
+- [Cloudflare D1](https://www.cloudflare.com/developer-platform/products/d1/)
+- [Firebase](https://firebase.google.com/)
 
 ## UI
 

@@ -24,9 +24,9 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ### Cross Platform
 
-- [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) - a technology that allows you to create applications for various platforms and efficiently reuse code across them
-- [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) - a declarative framework for sharing UIs across multiple platforms with Kotlin
-- [Ktor](https://github.com/ktorio/ktor) - a framework for building asynchronous server-side and client-side applications with ease
+- [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) - a technology that allows you to create applications for various platforms
+- [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) - a declarative framework for sharing UIs across multiple platforms
+- [Ktor](https://github.com/ktorio/ktor) - a framework for building asynchronous server-side and client-side applications
 - [Koin](https://github.com/InsertKoinIO/koin) - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform
 
 ### Cloud Services

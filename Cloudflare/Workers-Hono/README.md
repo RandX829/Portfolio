@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Screenshot](/Screenshot/Screenshot.png)
+![Screenshot](./Screenshot/Screenshot.png)
 
 ## Run in local dev
 

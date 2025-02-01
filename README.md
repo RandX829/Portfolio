@@ -37,8 +37,9 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## Kotlin Multiplatform
 
-- [Hands On](/Kotlin-Multiplatform/Hands-On/)
-- [Ktor](/Kotlin-Multiplatform/Ktor/)
+- [Hands On](/Kotlin-Multiplatform/Hands-On/) - Kotlin Multiplatform hands-on
+- [Ktor](/Kotlin-Multiplatform/Ktor/) - a framework for building asynchronous server-side and client-side applications with ease.
+- [Koin](/Kotlin-Multiplatform/Koin/) - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform.
 
 ## Public Tutorials
 
@@ -48,13 +49,9 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 | [CS193p - Developing Apps for iOS 2023](/Public-Tutorials/StanfordCS193p2023) | Stanford University's course |
 | [Create a Compose Multiplatform app](/Public-Tutorials/KotlinMultiplatform)   | JetBrains Official Document  |
 
-## Attribution
-
-- [Collection of .gitignore](https://github.com/github/gitignore)
-
 ## License
 
-Copyright 2022-2025 RandX(<010and1001@gmail.com>)
+Copyright 2022-Present RandX(<010and1001@gmail.com>)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

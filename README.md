@@ -65,8 +65,8 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## Cloudflare
 
-- [Workers+D1]() - COMING SOON
-- [Workers+Prisma]() - COMING SOON
+- [Workers+D1](/Cloudflare/Workers-D1/) - D1 is Cloudflare's managed, serverless database
+- [Workers+Prisma](/Cloudflare/Workers-Prisma/) - Prisma is a Next-generation ORM for Node.js & TypeScript
 - [Workers+Hone](/Cloudflare/Workers-Hono/) - Hono is a small, simple, and ultrafast web framework
 
 ## Public Tutorials

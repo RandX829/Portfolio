@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "workers-d1",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-29",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "workers-d1",
+      "database_id": "YOUR-DATABASE-ID"
+    }
+  ]
+}

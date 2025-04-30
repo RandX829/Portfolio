@@ -1,9 +1,16 @@
+# macOS
 .DS_Store
 
+# Xcode
+xcuserdata/
+
+# Android Studio
 .idea
 .gradle
 local.properties
 
-xcuserdata/
+# Wrangler
+.wrangler
 
-
+# Node
+node_modules/

@@ -5,18 +5,19 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 ## Android
 
 - 👇Basics
-- [Android Studio](https://developer.android.com/studio) - IDE
-- [Kotlin](https://kotlinlang.org/docs/getting-started.html) - The recommended modern programming language
-- [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) - The old but not obsolete programming Language
-- [Gradle](https://gradle.org/) - Build & Dependancy Management Tool
-- [Compose](https://developer.android.com/jetpack/compose) - The recommended modern UI framework
-- [Views](https://developer.android.com/develop/ui/views/layout/declaring-layout) - The old but not obsolete UI framework
+- Android Studio - IDE
+- Kotlin - The recommended modern programming language
+- Java - The old but not obsolete programming Language
+- Gradle - Build & Dependancy Management Tool
+- Jetpack Compose - The recommended modern UI framework
+- Views - The old but not obsolete UI framework
 - 👇UI
 - [SnackBar](/Android/SnackBar)
 - [ViewPager2](/Android/ViewPager2)
 - [BottomSheet](/Android/BottomSheet)
 - [Recyclerview](/Android/RecyclerView)
 - [Navigation](/Android/Navigation4Compose) - Compose
+- [ComposeInViews](/Android/ComposeInViews)
 - 👇Platform specific feature
 - [NFC](/Android/NFC)
 - [JavascriptInterface](/Android/JavascriptInterface)
@@ -27,12 +28,13 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 ## iOS
 
 - 👇Basics
-- [Xcode](https://developer.apple.com/xcode/resources/) - IDE
-- [Swift](https://www.swift.org/about/) - The recommended modern programming language
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C) - The old but not obsolete programming Language
-- [Swift Package Manager](https://github.com/swiftlang/swift-package-manager) - Dependancy Management Tool
-- [SwiftUI](https://developer.apple.com/xcode/swiftui/) - The recommended modern UI framework
-- [UIKit](https://developer.apple.com/documentation/uikit/) - The old but not obsolete UI framework
+- Xcode - IDE
+- Swift - The recommended modern programming language
+- Objective-C - The old but not obsolete programming Language
+- Swift Package Manager - Dependancy Management Tool
+- CocoaPods - The old but not obsolete Dependancy Management Tool
+- SwiftUI - The recommended modern UI framework
+- UIKit - The old but not obsolete UI framework
 - 👇UI
 - [Modal](/iOS/Modal)
 - [UICollectionView](/iOS/UICollectionView)

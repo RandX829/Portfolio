@@ -1,22 +1,12 @@
-# Kotlin Multiplatform - Hands On
+# Hands On
 
-[Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) is a technology that allows you to create applications for various platforms.
+Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 
-[Compose Multiplatform](https://www.jetbrains.com/compose-multiplatform/) is a declarative UI framework, allows you to develop shared UIs for Android, iOS, desktop, and web.
+## Tech Stack
 
-## Screenshot
-
-### Android
-
-![Android](./Screenshot/Android.png)
-
-### iOS
-
-![iOS](./Screenshot/iOS.png)
-
-### Web
-
-![Web](./Screenshot/Web.png)
+- Spring Boot
+- Jackson
+- SLF4J
 
 ## License
 

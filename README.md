@@ -54,9 +54,12 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 - 👇Basics
 - VSCode - IDE
 - Java - Programming language
+- Go - Programming language
 - Maven - Build & Dependancy Management Tool
 - [Spring Boot Hands-On](/SpringBoot/handson/)
 - [Docker Hands-ON](./Docker-Hands-On/)
+- [Hello World with Go](./Go/hello-world/)
+- [RESTful API with Go and Gin](./Go/rest-api-gin/)
 
 ## Kotlin Multiplatform
 

@@ -61,6 +61,14 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 - [Hello World with Go](./Go/hello-world/)
 - [RESTful API with Go and Gin](./Go/rest-api-gin/)
 
+## React
+
+- 👇Basics
+- VSCode - IDE
+- JavaScript - Programming language
+- Next.js - a flexible React framework
+- [Hands-On](./React/hands-on/)
+
 ## Kotlin Multiplatform
 
 - 👇Basics

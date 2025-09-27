@@ -82,6 +82,13 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 - [Koin hands on](/Kotlin-Multiplatform/Koin/)
 - [Create a Compose Multiplatform app](/Public-Tutorials/KotlinMultiplatform)
 
+## Flutter
+
+- 👇Basics
+- [Flutter](https://flutter.dev/) - An open-source UI toolkit by Google for building natively compiled apps for mobile (iOS, Android), web, and desktop from a single codebase.
+- 👇Hands on
+- [Hands On](/Flutter/hands_on/)
+
 ## Cloudflare
 
 - 👇Basics

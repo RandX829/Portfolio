@@ -24,6 +24,7 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 - [CustomTab](/Android/CustomTab)- Webview
 - [Room](/Android/Room) - Database
 - [Deeplink](/Android/Deeplink) - Deep Links, Android App Links, Universal Links
+- [ExoPlayer](/Android/ExoPlayer/) - Media Player
 
 ## iOS
 
@@ -49,25 +50,12 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 - [App Dev Tutorial SwiftUI](/Public-Tutorials/AppDevTutorialSwiftUI) - Apple Official Tutorial
 - [CS193p - Developing Apps for iOS 2023](/Public-Tutorials/StanfordCS193p2023)- Stanford University's Open Course
 
-## Backend
+## Flutter
 
 - 👇Basics
-- VSCode - IDE
-- Java - Programming language
-- Go - Programming language
-- Maven - Build & Dependancy Management Tool
-- [Spring Boot Hands-On](/SpringBoot/handson/)
-- [Docker Hands-ON](./Docker-Hands-On/)
-- [Hello World with Go](./Go/hello-world/)
-- [RESTful API with Go and Gin](./Go/rest-api-gin/)
-
-## React
-
-- 👇Basics
-- VSCode - IDE
-- JavaScript - Programming language
-- Next.js - a flexible React framework
-- [Hands-On](./React/hands-on/)
+- [Flutter](https://flutter.dev/) - An open-source UI toolkit by Google for building natively compiled apps for mobile (iOS, Android), web, and desktop from a single codebase.
+- 👇Hands on
+- [Hands On](/Flutter/hands_on/)
 
 ## Kotlin Multiplatform
 
@@ -82,12 +70,38 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 - [Koin hands on](/Kotlin-Multiplatform/Koin/)
 - [Create a Compose Multiplatform app](/Public-Tutorials/KotlinMultiplatform)
 
-## Flutter
+## Spring Boot
 
 - 👇Basics
-- [Flutter](https://flutter.dev/) - An open-source UI toolkit by Google for building natively compiled apps for mobile (iOS, Android), web, and desktop from a single codebase.
-- 👇Hands on
-- [Hands On](/Flutter/hands_on/)
+- VSCode - IDE
+- Java - Programming language
+- Maven - Build & Dependancy Management Tool
+- [Spring Boot Hands-On](/SpringBoot/handson/)
+
+## Go
+
+- 👇Basics
+- VSCode - IDE
+- Go - Programming language
+- [Spring Boot Hands-On](/SpringBoot/handson/)
+- [Hello World with Go](./Go/hello-world/)
+- [RESTful API with Go and Gin](./Go/rest-api-gin/)
+
+## Docker
+
+- 👇Basics
+- Docker Engine - an open source containerization technology for building and containerizing your applications.
+- Docker Compose - a tool for defining and running multi-container applications.
+- Docker Desktop - a one-click-install application for your Mac, Linux, or Windows environment that lets you build, share, and run containerized applications and microservices.
+- [Docker Hands-ON](./Docker-Hands-On/)
+
+## React
+
+- 👇Basics
+- VSCode - IDE
+- JavaScript - Programming language
+- Next.js - a flexible React framework
+- [Hands-On](./React/hands-on/)
 
 ## Cloudflare
 

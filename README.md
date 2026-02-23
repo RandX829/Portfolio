@@ -2,6 +2,10 @@
 
 For CODING PRACTICE and KNOWLEDGE SHARING.
 
+## Agentic
+
+- [Reminders Clone](/Agentic/reminders-clone/) - A reactive, local-first web application that mimics the core features of the iOS Reminders app.
+
 ## Android
 
 - 👇Basics
@@ -113,7 +117,7 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## License
 
-Copyright 2022-2025 RandX
+Copyright 2022-2026 RandX
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

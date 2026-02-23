@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --apple-blue: #007AFF;
+  --apple-red: #FF3B30;
+  --apple-orange: #FF9500;
+  --apple-yellow: #FFCC00;
+  --apple-green: #34C759;
+  --apple-mint: #00C7BE;
+  --apple-teal: #30B0C7;
+  --apple-cyan: #32ADE6;
+  --apple-indigo: #5856D6;
+  --apple-purple: #AF52DE;
+  --apple-pink: #FF2D55;
+  --apple-brown: #A2845E;
+  --apple-gray: #8E8E93;
+}
+
+@layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .ios-sidebar-item {
+    @apply flex items-center px-3 py-2 rounded-lg transition-colors duration-200;
+  }
+  
+  .ios-sidebar-item.active {
+    @apply bg-apple-gray-4;
+  }
+  
+  .ios-sidebar-item:hover:not(.active) {
+    @apply bg-apple-gray-5;
+  }
+}

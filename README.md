@@ -4,7 +4,8 @@ For CODING PRACTICE and KNOWLEDGE SHARING.
 
 ## Agentic
 
-- [Reminders Clone](/Agentic/reminders-clone/) - A reactive, local-first web application that mimics the core features of the iOS Reminders app.
+- [Reminders Clone (Gemini)](/Agentic/reminders-clone-gemini/)
+- [Reminders Clone (MiniMax)](/Agentic/reminders-clone-minimax/)
 
 ## Android
 

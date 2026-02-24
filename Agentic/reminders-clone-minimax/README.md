@@ -1,4 +1,4 @@
-# Reminders Clone
+# Reminders Clone (MiniMax)
 
 A reactive, local-first web application that mimics the core features of the iOS Reminders app.
 
@@ -8,15 +8,15 @@ A reactive, local-first web application that mimics the core features of the iOS
 
 ## Tech Stack
 
-- Antigravity
-- Gemini 3 Fast
+- OpenCode
+- MiniMax M2.5
 - OpenSpec
 
-## Run in local dev
+## Other
 
-```Shell
-npm run dev
-```
+- Prompt
+  - "/opsx-explore simplified iOS Reminders clone – desktop app, local-only, React+Vite+Tailwind+Zustand+dayjs, JSON file persistence, core: lists + reminders (title, notes, due date, priority, completed)"
+- Took about 30 minutes
 
 ## License
 
